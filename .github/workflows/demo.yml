@@ -3,7 +3,7 @@ on:
   pull_request:
     types:
       - opened
-    branches:
+    branches:      # 這邊是指 PR 的 target 目標 branch
       - main       # main
       - 'dev-*'    # dev-new dev-this-is-new
       - 'feat/**'  # feat/new feat/new/button
